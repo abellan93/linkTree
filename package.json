@@ -1,0 +1,32 @@
+{
+  "name": "linktree",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "express and typescript linktreeclone",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abellan93/linkTree.git"
+  },
+  "author": "Raúl Abellán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abellan93/linkTree/issues"
+  },
+  "homepage": "https://github.com/abellan93/linkTree#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

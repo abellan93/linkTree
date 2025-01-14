@@ -21,10 +21,12 @@
   "homepage": "https://github.com/abellan93/linkTree#readme",
   "dependencies": {
     "@types/express": "^5.0.0",
+    "bcrypt": "^5.1.1",
     "colors": "^1.4.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.9.4"
+    "mongoose": "^8.9.4",
+    "slug": "^10.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9",
